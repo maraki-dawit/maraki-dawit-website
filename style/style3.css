@@ -48,14 +48,6 @@ body {
     margin: 0 auto;
     text-align: center;
     overflow-x: auto;  }
-@media (max-width: 600px) {
-    section {
-        padding: 15px; 
-        font-size: 0.9rem; 
-    }
-
-
-
   section img {
     width: 150px;
     height: 150px;
