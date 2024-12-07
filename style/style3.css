@@ -72,6 +72,36 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f1f1f1;
 }
+@media (max-width: 768px) {
+    table {
+      font-size: 0.85rem;
+    }
+  
+    th, td {
+      padding: 6px;
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    table {
+      font-size: 0.75rem;
+    }
+  
+    th, td {
+      padding: 4px;
+      font-size: 0.75rem;
+    }
+  
+    section h2 {
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  }
+      
 section {
     padding: 20px;
     margin: 0 auto;
